@@ -6,7 +6,7 @@
 	git config --list 查看配置信息
 	git status 查看当前地址是否是仓库
 	
-	untracked                       modified  
+	untracked   added              modified  
 	未跟踪---> 暂存---> 未修改---> 修改
 	git add 添加到暂存
 	git add * 将所有已修改(未跟踪)的 文件添加到暂存
@@ -23,4 +23,5 @@
 	可以创建多个分支, 分支和分支之间相互独立, 在分支上修改, 不会影响其他分支
 	git branch -d <branch name> 删除分支
 	git switch <branch name> 切换分支
-	git switch -c <branch name> 创建并切换分支
+	git switch -c <branch name> 创建并切换分支 
+	
